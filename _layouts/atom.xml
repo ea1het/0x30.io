@@ -17,6 +17,6 @@
     <name>{{ site.author }}</name>
     <email>{{ site.email }}</email>
   </author>
-  <rights type="text">Copyright © {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.</rights>
+  <rights type="text">MIT License {{ site.time | date: "%Y" }} {{ site.author }}.</rights>
   {{ content }}
 </feed>
