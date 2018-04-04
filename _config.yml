@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jonathan G."
+title                    : "0x30.io"
 title_separator          : "-"
 name                     : &name "Jonathan G"
 description              : &description "Research scientist at Test University"
@@ -15,7 +15,7 @@ url                      : http://0x30.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/ea1het/0x30.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -29,7 +29,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -79,11 +79,11 @@ analytics:
 author:
   name             : "Jonathan Gonzalez"
   avatar           : "profile.png"
-  bio              : "Research scientist at Test University, expert in all things test and account related"
-  location         : "Test, California"
+  bio              : "DevOps, Python, CyberSecurity; HamRadio, Maker, FreeBiker; Always against the current; Life enthusiast; Nothing special, just a normal guy ツ"
+  location         : "Spain / Remote"
   employer         : 
-  googlescholar    : "http://scholar.google.com/this-is-a-test"
-  email            : 
+  googlescholar    : 
+  email            : j@0x30.io
   uri              : 
   bitbucket        :
   codepen          :
@@ -93,11 +93,11 @@ author:
   foursquare       :
   github           : "ea1het"
   google_plus      :
-  keybase          :
+  keybase          : "ea1het"
   instagram        : 
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/testaccount"
+  linkedin         : "ea1het"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
