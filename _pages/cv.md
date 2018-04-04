@@ -5,37 +5,62 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+  - /cv.html
 ---
 
 {% include base_path %}
 
-Education
-======
-* B.S. in Testing Science, Testing University, 2012
-* M.S. in Testonomy, Testing University, 2014
-* Ph.D in Testology, Testing University, 2017 (expected)
-
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Testing University
-  * Duties included: Running Tests
-  * Supervisor: Professor Travis
+* Cloud Security Architect & Digital Risk Leader
+  * Schneider Electric
 
-* Fall 2015: Research Assistant
-  * Testing University
-  * Duties included: Running Tests
-  * Supervisor: Professor Travis
+* Cloud Architect / DevOps
+  * DXC Technology
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Network Engineer / SRE
+  * SD WISP
 
+* Digital Analytics Analyst
+  * Sweetspot Intelligence
+
+* Cloud VoIP Product Manager
+  * Alisys
+
+* Consultant on OSINT project
+  * Indra Systems
+
+* Functional Architect (core banking) - Security
+  * Matchmind
+  
+* Security Team Leader
+  * Accenture Spain
+  
+* Network Security Engineer
+  * BT
+  
+* IT Auditor
+  * IBM Global Services
+  
+* Security Consultant
+  * Dinsa Soluciones
+  
+* R&D Engineer - Security
+  * Atos
+  
+* Systems Engineer - Unified Messaging & Voicemail
+  * Comverse Network Systems
+  
+* Web Developer
+  * Portel Servicios Telematicos
+  
+Education
+======
+* Ph.D in NLP, University Carlos III Madrid, 2020 (expected)
+* MSc in Digital Information Systems & Libraries, University Carlos III Madrid, 2017
+* MSc in Security, University Carlos III Madrid, 2010
+* BSc in LIS, University Carlos III Madrid, 2014
+  
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -56,4 +81,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 49 different slack teams
+* TBC

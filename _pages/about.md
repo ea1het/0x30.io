@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-This is Dr. Test Account's home on the web!
+This is Jonathan Gonzalez's home on the web!
 
-Lorem ipsum.
+This site is under construction (2018-04-04).
