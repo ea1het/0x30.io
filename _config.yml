@@ -15,7 +15,7 @@ url                      : http://0x30.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/ea1het/0x30.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -84,7 +84,7 @@ author:
   employer         : 
   googlescholar    : 
   email            : j@0x30.io
-  uri              : 
+  uri              : http://0x30.io
   bitbucket        :
   codepen          :
   dribbble         :
