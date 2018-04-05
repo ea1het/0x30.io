@@ -54,7 +54,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "ea1het"
 facebook:
   username               : 
   app_id                 :
@@ -91,19 +91,19 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "ea1het"
+  github           : 
   google_plus      :
   keybase          : 
   instagram        : 
   lastfm           :
-  linkedin         : "ea1het"
+  linkedin         : 
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "ea1het"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
