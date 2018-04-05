@@ -109,8 +109,8 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
-	  {% if atom_feed.path %}
-        <li><a href="https://0x30.io/{{ atom_feed.path }}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> RSS Feed</a></li>
+	  {% if site.atom_feed.path %}
+        <li><a href="https://0x30.io/{{ site.atom_feed.path }}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> RSS Feed</a></li>
       {% endif %}
     </ul>
   </div>
