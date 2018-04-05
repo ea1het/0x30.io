@@ -5,62 +5,37 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-  - /cv.html
 ---
 
 {% include base_path %}
 
-Work experience
-======
-* Cloud Security Architect & Digital Risk Leader
-  * Schneider Electric
-
-* Cloud Architect / DevOps
-  * DXC Technology
-  
-* Network Engineer / SRE
-  * SD WISP
-
-* Digital Analytics Analyst
-  * Sweetspot Intelligence
-
-* Cloud VoIP Product Manager
-  * Alisys
-
-* Consultant on OSINT project
-  * Indra Systems
-
-* Functional Architect (core banking) - Security
-  * Matchmind
-  
-* Security Team Leader
-  * Accenture Spain
-  
-* Network Security Engineer
-  * BT
-  
-* IT Auditor
-  * IBM Global Services
-  
-* Security Consultant
-  * Dinsa Soluciones
-  
-* R&D Engineer - Security
-  * Atos
-  
-* Systems Engineer - Unified Messaging & Voicemail
-  * Comverse Network Systems
-  
-* Web Developer
-  * Portel Servicios Telematicos
-  
 Education
 ======
-* Ph.D in NLP, University Carlos III Madrid, 2020 (expected)
-* MSc in Digital Information Systems & Libraries, University Carlos III Madrid, 2017
-* MSc in Security, University Carlos III Madrid, 2010
-* BSc in LIS, University Carlos III Madrid, 2014
+* B.S. in Github, Github University, 2012
+* M.S. in Jekyll, Github University, 2014
+* Ph.D in Version Control Theory, Github University, 2018 (expected)
+
+Work experience
+======
+* Summer 2015: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
+
+* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
   
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
+
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -81,4 +56,4 @@ Teaching
   
 Service and leadership
 ======
-* TBC
+* Currently signed in to 43 different slack teams
