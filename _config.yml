@@ -54,7 +54,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "ea1het"
+  username               : &twitter
 facebook:
   username               : 
   app_id                 :
@@ -84,7 +84,7 @@ author:
   employer         : 
   googlescholar    : 
   email            : j@0x30.io
-  uri              : http://0x30.io
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
@@ -93,7 +93,7 @@ author:
   foursquare       :
   github           : "ea1het"
   google_plus      :
-  keybase          : "ea1het"
+  keybase          : 
   instagram        : 
   lastfm           :
   linkedin         : "ea1het"
