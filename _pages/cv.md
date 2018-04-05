@@ -51,6 +51,7 @@ Education
 * MSc in Digital Information Systems & Libraries, UC3M, 2017
 * MSc in Security Management, UC3M, 2010
 * BSc in LIS, UC3M, 2014
+* BSc in Computer Science, ITFP Nº1, 1999
 
   
 Publications
@@ -71,6 +72,9 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Projects
 ======
-* Currently signed in to 43 different slack teams
+* **The Things Network - Principado de Asturias**
+  * We are on a mission to provide the entire Principality of Asturias region, in the north of Spain, with Internet of Things (IoT) data connectivity by leveraging a public-owned LoRa (LoRaWAN/LPWAN) network infrastructure.
+* **RAENAC (Radio en Accion)**
+  * Association commited with the promotion of radio technologies of all types. 
