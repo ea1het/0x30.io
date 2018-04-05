@@ -55,6 +55,8 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : &twitter "ea1het"
+linkedin:
+  username               : &linkedin "ea1het"
 facebook:
   username               : 
   app_id                 :
