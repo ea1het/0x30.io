@@ -22,7 +22,7 @@ On the other hand, if get to my website...
 
    ... while searching for my ham radio callsign (**[EA1HET](hamradio/)**), you can get more details about ham radio sutff in the **[ham radio section](hamradio/)** of this website.
 
-   ... while looking for information about **The Things Network** initiative in Principado de Asturias (SPAIN), then, you can better visit the **[project's website](http://astuias-iot.github.io)**. 
+   ... while looking for information about **The Things Network** initiative in Principado de Asturias (SPAIN), then, you can better visit the **[project's website](http://asturias-iot.github.io)**. 
 
 Much appreciated for your visit _**:)**_
 
