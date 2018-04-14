@@ -12,5 +12,8 @@ main:
   - title: "Talks"
     url: /talks/       
     
+   - title: "Ham Radio"
+    url: /hamradio/
+    
   - title: "Guide"
     url: /markdown/
