@@ -1,10 +1,11 @@
 ---
 permalink: /
 title: "Jonathan Gonzalez's personal website"
-excerpt: "About me"
+excerpt: "About Jonathan G."
 author_profile: true
 redirect_from: 
   - /about/
+  - /about/me
   - /about.html
 ---
 
@@ -18,11 +19,11 @@ To get in sync with me, you can add me to your **[RSS](feed.xml)** reader, so, y
 
 If you want to get in touch with me, **[email me](mailto:j@0x30.io)**, **[tweet me](https://twitter.com/ea1het)** or **[skype me](skype:ea1het?call)** (prefereably in that order). I'm a really busy dude; I always touch base back, but, expect some delays. 
 
-On the other hand, if get to my website...
+On the other hand, if get to my website:
 
-   ... while searching for my ham radio callsign (**[EA1HET](hamradio/)**), you can get more details about ham radio sutff in the **[ham radio section](hamradio/)** of this website.
+   - while searching for my ham radio callsign (**[EA1HET](hamradio/)**), you can get more details about ham radio sutff in the **[ham radio section](hamradio/)** of this website.
 
-   ... while looking for information about **The Things Network** initiative in Principado de Asturias (SPAIN), then, you can better visit the **[project's website](http://asturias-iot.github.io)**. 
+   - while looking for information about **The Things Network** initiative in Principado de Asturias (SPAIN), then, you can better visit the **[project's website](http://asturias-iot.github.io)**. 
 
 Much appreciated for your visit _**:)**_
 
