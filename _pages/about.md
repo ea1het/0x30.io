@@ -25,3 +25,5 @@ On the other hand, if get to my website...
    ... while looking for information about **The Things Network** initiative in Principado de Asturias (SPAIN), then, you can better visit the **[project's website](http://astuias-iot.github.io)**. 
 
 Much appreciated for your visit _**:)**_
+
+Jonathan
