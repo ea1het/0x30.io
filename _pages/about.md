@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Under Construction"
+title: "Jonathan Gonzalez's personal website"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
