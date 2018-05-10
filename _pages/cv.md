@@ -47,7 +47,7 @@ Work experience
 
 Education
 ======
-* Ph.D in NLP & ML, UC3M, 2020 (expected)
+* Ph.D candidate, UC3M, 2020 (expected)
 * MSc in Digital Information Systems & Libraries, UC3M, 2017
 * MSc in Security Management, UC3M, 2010
 * BSc in LIS, UC3M, 2014
