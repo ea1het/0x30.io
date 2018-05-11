@@ -61,7 +61,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}
   </ul>
-  
+
+
 Talks
 ======
   <ul>
@@ -69,6 +70,7 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}
   </ul>
+   
    
 Projects
 ======
