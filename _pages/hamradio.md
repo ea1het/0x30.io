@@ -14,7 +14,9 @@ Thanks for your interest on ham radio. Amateur radio has been a good companion s
 In the last years (2015-2018), I've been involved, at different levels, with the development of DMR (Digital Mobile Radio) infrastructures, first nation-wide, in Spain, and later more locally in my own region, Asturias. 
 
 Currently (2018), I'm working on ham radio project related to IoT (Internet of Things) where the amateur radio operators can bring really so much knowledge in terms of radio technologies adoption and use. 
-
+  
+    
+    
 # My ham radio shack
 ## Antennas
 - Reception only: Diamond D-303
