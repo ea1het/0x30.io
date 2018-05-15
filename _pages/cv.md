@@ -10,11 +10,12 @@ redirect_from:
 
 {% include base_path %}
 
-**Hey!** You can also grab a copy of the **[CV in PDF format](https://0x30.io/files/cvJGF0x30.pdf "Download CV in PDF format")** right from here (permanent link).
-
-
 Work experience
 ======
+
+**Hey!** You can also grab a copy of the **[CV in PDF format](https://0x30.io/files/cvJGF0x30.pdf "Download CV in PDF format")** right from here (permanent link).
+{: .notice}
+
 * **Cloud Security Architect & Digital Risk Leader**, *Schneider Electric*
   * This is a role with technical know-how and leadership qualities to eager drive security initiatives from start to finish and presents opportunities to advise on the global security strategy matters:
      - Ensure compliance with Data Protection, Jurisdiction and Privacy laws globally as part of the cloud domain.
