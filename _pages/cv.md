@@ -10,7 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
-You can grab a copy of this [`CV in PDF format`](#) directly {: .notice}
+**Hey!** You can also grab a copy of the [`CV in PDF format`](#).
+{: .notice}
 
 Work experience
 ======
