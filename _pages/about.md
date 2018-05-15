@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Jonathan Gonzalez's personal website"
-excerpt: "About Jonathan G."
+title: "Jonathan Gonzalez, personal website"
+excerpt: "About Jonathan Gonzalez"
 author_profile: true
 redirect_from: 
   - /about/
