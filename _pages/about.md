@@ -11,19 +11,24 @@ redirect_from:
 
 Hi there, 
 
-Thanks for getting to my personal website. Here you will be able to find some information about myself. 
+Thanks for getting to my personal website. Here you will be able to find some useful information about myself. 
 
-You can have a look at an always updated version of my **[CV](cv/)**, a selected list of **[publications](publications/)** and **[talks](talks/)** I've done over time. Finally, in the **[blog](year-archive/)** section you can access my most recent posts. 
+From the menu, you can have access to:
 
-To get in sync with me, you can add me to your **[RSS](feed.xml)** reader, so, you can always stay current. 
+- An always updated version of my **[CV](cv/)**. Even you can download it on PDF format.
+- A selected list of **[publications](publications/)** and **[talks](talks/)** I've done over time. 
+- A **[blog](year-archive/)** section, where you can access my most recent posts about the things most motivate me, surprise me or deserve attention somethow. 
 
-If you want to get in touch with me, **[email me](mailto:j@0x30.io)**, **[tweet me](https://twitter.com/ea1het)** or **[skype me](skype:ea1het?call)** (prefereably in that order). I'm a really busy dude; I always touch base back, but, expect some delays. 
+To get in sync with me, you can either:
 
-On the other hand, if get to my website:
+- Add me to your **[RSS](feed.xml)** reader, so, you can always stay current. 
+- If you prefer a more direct contact, then probably an **[email](mailto:j@0x30.io)**, **[tweet](https://twitter.com/ea1het)** or **[skype call](skype:ea1het?call)** would be better. I'm a really busy dude, but, I always touch base back, so, expect some delays. 
 
-   - while searching for my ham radio callsign (**[EA1HET](hamradio/)**), you can get more details about ham radio sutff in the **[ham radio section](hamradio/)** of this website.
+If get to my website:
 
-   - while looking for information about **The Things Network** initiative in Principado de Asturias (SPAIN), then, you can better visit the **[project's website](http://asturias-iot.github.io)**. 
+   - While searching for my ham radio callsign (**[EA1HET](hamradio/)**), you can get more details about ham radio sutff in the **[ham radio section](hamradio/)** of this website.
+
+   - While looking for information about **The Things Network** initiative in Principado de Asturias (SPAIN), then, you can better visit the **[project's website](http://asturias-iot.github.io)**. 
 
 Much appreciated for your visit _**:)**_
 
