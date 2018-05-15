@@ -11,7 +11,7 @@ redirect_from:
 
 Hi there, 
 
-Thanks for getting to my personal website. Here you will be able to find some useful information about myself. 
+Thanks for getting to my personal website. Here you will be able to find some useful information about me. 
 
 From the menu, you can have access to:
 
