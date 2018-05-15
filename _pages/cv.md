@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-**Hey!** You can also grab a copy of the [`CV in PDF format`](https://0x30.io/files/cvJGF0x30.pdf).
+**Hey!** You can also grab a copy of the **[`CV in PDF format`](https://0x30.io/files/cvJGF0x30.pdf)** right from here (permanent link).
 {: .notice}
 
 Work experience
