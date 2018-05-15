@@ -15,8 +15,8 @@ In the last years (2015-2018), I've been involved, at different levels, with the
 
 Currently (2018), I'm working on ham radio project related to IoT (Internet of Things) where the amateur radio operators can bring really so much knowledge in terms of radio technologies adoption and use. 
   
-    
-    
+\s\s
+ 
 # My ham radio shack
 ## Antennas
 - Reception only: Diamond D-303
@@ -24,7 +24,7 @@ Currently (2018), I'm working on ham radio project related to IoT (Internet of T
 - VHF/UHF: 
   - Diamond X-300
   - Diamond X-50
- 
+
 ## Transceivers
 - HF/6m: Yaesu FT-950 + RFSpace IF-2000 Rev. C (IF output)
 - All mode: Yaesu FT-857D
