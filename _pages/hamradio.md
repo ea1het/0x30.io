@@ -4,6 +4,9 @@ title: "Ham Radio > EA1HET"
 excerpt: "About EA1HET"
 author_profile: true
 redirect_from: 
+  - /ham-radio/
+  - /ham-radio
+  - /hamradio
   - /ea1het/
   - /ea1het
 ---
@@ -34,6 +37,8 @@ Currently (2018), I'm working on ham radio project related to IoT (Internet of T
 - All band (0-30 Mhz): Kenwood Trio R-600
 
 ### Handy / Walkie-Talkies
+- All mode radio:
+   - AnyTone AT-D868UV 
 - Analogue radio:
    - Kenwood TH-F7E
    - Kenwood TH79 Dual Band / Full duplex
@@ -45,6 +50,7 @@ Currently (2018), I'm working on ham radio project related to IoT (Internet of T
 
 ### Power Amplifiers
 - HF/6m: Acom 1010 (800W PEP)
+- HF/6m: RM Italy BLA600 (600W PEP)
 
 ### SDR
 - Telepost Inc. LP-Pan Panadapter
