@@ -38,7 +38,7 @@ Currently (2018), I'm working on ham radio project related to IoT (Internet of T
 
 ### Handy / Walkie-Talkies
 - All mode radio:
-   - AnyTone AT-D868UV 
+   - AnyTone AT-D868UV (Digital DMR + Analogue / VHF + UHF)
 - Analogue radio:
    - Kenwood TH-F7E
    - Kenwood TH79 Dual Band / Full duplex
@@ -57,7 +57,7 @@ Currently (2018), I'm working on ham radio project related to IoT (Internet of T
 - SDRPlay RSP2pro
 
 ### IoT
-- Pycom.io LoPy4
+- Pycom.io LoPy4 & FiPy
 - WeMos LoLin32
 - Raspberry Pi 3b
 
