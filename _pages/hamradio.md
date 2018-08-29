@@ -23,13 +23,13 @@ Currently (2018), I'm working on ham radio project related to IoT (Internet of T
 # My ham radio shack
 ### Antennas
 - Reception only: Diamond D-303
-- HF/160m/6m: Bencher Butternut HF-9V 
-- VHF/UHF: 
-  - Diamond X-300
-  - Diamond X-50
+- HF/160m/6m/4m: Bencher Butternut HF-9V 
+- VHF/UHF/1200: 
+  - Diamond X-50 (VHF, UHF)
+  - Diamond X-5000 (VHF, UHF, 1200)
 
 ### Transceivers
-- HF/6m: Yaesu FT-950 + RFSpace IF-2000 Rev. C (IF output)
+- HF/6m/4m: Icom IC-7300
 - All mode: Yaesu FT-857D
 - VHF/UHF: Yaesu FT-90 
 
@@ -43,21 +43,19 @@ Currently (2018), I'm working on ham radio project related to IoT (Internet of T
    - Kenwood TH-F7E
    - Kenwood TH79 Dual Band / Full duplex
    - Baofeng UV-3R
+   - Baofeng UV-5R
 - Digital radio:
-   - DMR: 
-     - Hytera PD-685 
-     - TYT MD380 
+   - DMR: Hytera PD-685 
 
 ### Power Amplifiers
 - HF/6m: Acom 1010 (800W PEP)
-- HF/6m: RM Italy BLA600 (600W PEP)
 
 ### SDR
-- Telepost Inc. LP-Pan Panadapter
 - SDRPlay RSP2pro
 
 ### IoT
-- Pycom.io LoPy4 & FiPy
+- Pycom.io LoPy4
+- Pycom.io FiPy
 - WeMos LoLin32
 - Raspberry Pi 3b
 
