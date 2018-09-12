@@ -25,14 +25,18 @@ Work experience
      - Provide support to the SOC on cloud incident handling.
      - Lead investigations and take corrective/preventive actions, working closely with other regional or domain security experts.
      - Lead training and technical forums, serving as both a formal and informal mentor, and execute other initiatives designed to share knowledge across the enterprise, managing security awareness.
+  * Frameworks:
+     - TOGAF
+     - SABSA 
   * Technologies:
+     - Typical ICS mechanisms and IIoT devices. 
      - Application Security design patterns.
      - Service-oriented and microservices architectures.
      - Data at rest protection mechanisms: cryptography, key management, etc.
      - Network security in IaaS, PaaS and SaaS multi-cloud environments and data in transit security mechanisms.
      - Cloud-native/friendly authentication mechanisms (OAuth, OpenID, SAML), as well as traditional methods such as Directory Services, Identity and Access Management (IAM) & Single Sign-On (SSO).
      - Monitoring, detection and protection methods (network segregation, Firewalls, IDS/IPS, NAC, SDP, SIEM, Threat Intelligence).
-     - Cloud security and governance tools, security brokers (CASBs) and virtualization technologies. 
+     - Cloud security and governance tools & security brokers (CASBs). 
 * **Cloud Architect/DevOps**, *DXC Technology*
 * **Network Engineer/SRE**, *SD WISP*
 * **Digital Analytics Analyst**, *Sweetspot Intelligence*
