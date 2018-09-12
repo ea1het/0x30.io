@@ -13,7 +13,7 @@ Hi there,
 
 Thanks for getting to my personal website. Here you will be able to find some useful information about me. 
 
-From the menu, you can have access to:
+In this web site you can have access to:
 
 - An always updated version of my **[`CV`](cv/)**. Even you can download it on PDF format.
 - A selected list of **[`publications`](publications/)** and **[`talks`](talks/)** I've done over time. 
@@ -24,12 +24,14 @@ To get in sync with me, you can either:
 - Add me to your **[`RSS`](feed.xml)** reader, so, you can always stay current. 
 - If you prefer a more direct contact, then probably an **[`email`](mailto:j@0x30.io)**, **[`tweet`](https://twitter.com/ea1het)** or **[`skype call`](skype:ea1het?call)** would be better. I'm a really busy dude, but, I always touch base back, so, expect some delays. 
 
-If got to my website:
+If you got to my website:
 
-   - While searching for my ham radio callsign (**[`EA1HET`](hamradio/)**), you can get more details about ham radio sutff in the **[`ham radio section`](hamradio/)**, from the menu.
+   - While searching for my **ham radio callsign** (**[`EA1HET`](hamradio/)**), you can get more details about ham radio sutff in the **[`ham radio section`](hamradio/)**, from the menu.
 
    - While looking for information about **The Things Network** initiative in Principado de Asturias (SPAIN), then, you can better visit the **[`project's website`](http://asturias-iot.github.io)**. 
 
-Much appreciated for your visit _**:)**_
+   - If you got here by error... hey! No problem! Have a luck a drop me a line ツ
 
-Jonathan
+Much appreciated for your visit _**ツ**_
+
+Jon
