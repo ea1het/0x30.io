@@ -34,9 +34,7 @@ Currently (2018), I'm working on ham radio project related to IoT (Internet of T
 - VHF/UHF: Yaesu FT-90 
 
 ### Receivers
-- All band (0-30 Mhz): 
-    - Base: Kenwood Trio R-600
-    - Mobile: Sony ICF-SW7600G
+- All band (0-30 Mhz): Kenwood Trio R-600
 
 ### Handy / Walkie-Talkies
 - All mode radio:
