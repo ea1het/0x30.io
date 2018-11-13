@@ -1,120 +1,59 @@
-> March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
+# Cover Card jekyll theme
 
-# Jekyll Now
+Create a cover page for your social media profiles, host it for free on Github Pages, and maintain it in minutes, not hours. [Demo](https://epidrome.github.io/cover-card)
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+This theme is ideal for people or organizations who are busy enjoying their life or business and who want a simple business card for their online presence.
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+Please keep this README file because it contains the credits at the end and it might become handy after you have completely forgoten the set-up instructions.
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependencies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+## Design rationale
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+The design rationale of this theme is to do less than other themes: "Less is more"
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+The majority (99%) of the availabe jekyll themes offers a blog, but I have never been able to keep blog content (or its technology) updated over time.
 
-## Quick Start
+Let's be honest with ourselves: How does an (abandoned) blog centered web site looks to new visitors if we have not posted since two years ago?
 
-### Step 1) Fork Jekyll Now to your User Repository
+## Make it yours
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+[Fork this repository](https://github.com/epidrome/cover-card/fork) and edit the files to your liking: As a first step, you may want to replace the images and edit the `_config.yml` with your online profiles. You can test the result almost in real-time at the Github Pages url displayed in the Settings tab (gh-pages branch).
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+### Avatar or Logo
 
-![Step 1](/images/step1.gif "Step 1")
+The avatar image should be square and at least 200 pixels. Chances are that you have a selfie somewhere in your media storage. If you are making a page for a business or product, then use a logo.
 
-### Step 2) Customize and view your site
+### Background image sets the mood
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
+There is no aspect ratio requirement for the background image, but it should be big enough for contemporary (desktop, tablet, phone) computer displays and dark enough in order to work for the white foreground text and icons.
 
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
+### Social profiles
 
-> There are 3 different ways that you can make changes to your blog's files:
+Edit the `_config.yml` file with your social media profiles by adding the respective account name, not the full link. You can delete or comment out the social media that you don't need.
 
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
+### Domain name
 
-![_config.yml](/images/config.png "_config.yml")
+Github Pages supports free custom domain names, so it is worth buying a domain name and puting it at the settings. If you want to use the theme with you user page (ie. username.github.io), then delete (or rename) your `master branch` and rename your `gh-branch` to `master` #13
 
-### Step 3) Publish your first blog post
+### Working example
 
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+You can [inspect a working example of the configuration file](https://github.com/epidrome/home/blob/master/_config.yml).
 
-![First Post](/images/first-post.png "First Post")
+### Updates
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+Please note that the theme is currently in beta, so some updates at the [master branch](https://github.com/epidrome/cover-card/tree/master) might break your site. Don't panic! 
 
-## Local Development
+You can visit [releases](https://github.com/epidrome/cover-card/releases) and check for bugs and new features.
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://127.0.0.1:4000/
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+If you wish to keep your theme frozen and not receive updates, then you can [revert your remote_theme to the last known good configuration](https://github.com/benbalter/jekyll-remote-theme):
 
-## Moar!
+> You may also optionally specify a branch, tag, or commit to use by appending an @ and the Git ref (e.g., epidrome/cover-card@v0.3). If you don't specify a Git ref, the master branch will be used.
 
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
+### Expert options
 
-It covers:
-
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
-
-## Jekyll Now Features
-
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
-
-✘ No installing dependencies
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
-
-## Questions?
-
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
-
-## Other forkable themes
-
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
-
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
+You can find and locally overide advanced options (custom domain name, extra social icons, font styles) for this theme in the documentation (readme) at the [master branch](https://github.com/epidrome/cover-card/tree/master).
 
 ## Credits
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
+This page is based on the [cover-card jekyll remote theme](https://github.com/epidrome/cover-card/tree/master).
 
-## Contributing
-
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
-
-You can start by [opening an issue](https://github.com/barryclark/jekyll-now/issues/new) describing the problem that you're looking to resolve and we'll go from there.
-
-I want to keep Jekyll Now as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
+Background photo by Anders Jildén and avatar photo by Ayo Ogunseinde, both on [Unsplash](https://unsplash.com/)
