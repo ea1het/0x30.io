@@ -2,8 +2,8 @@
 remote_theme: 'epidrome/cover-card'
 
 # Title and tag line
-title: 'My name'
-description: 'I am amazing.'
+title: 'Jonathan GONZALEZ'
+description: 'CyberSecurity & Ham Radio'
 
 # Images
 avatar: 'avatar.jpg'
@@ -11,30 +11,30 @@ background: 'background.jpg'
 favicon: 'favicon.ico'
 
 # Online profiles
-dribbble: 'mydribbble'
-facebook: 'myfacebook'
-twitter: 'mytwitter'
-linkedin: 'mylinkedin'
-instagram: 'myinsta'
-pinterest: 'mypinterest'
-youtube: 'myyoutube'
-github-user: 'mygithub'
-#gitlab-user: ''
+#dribbble: ''
+#facebook: ''
+twitter: 'ea1het'
+linkedin: 'ea1het'
+#instagram: ''
+#pinterest: ''
+#youtube: ''
+github-user: 'ea1het'
+gitlab-user: 'ea1het'
 #codepen: ''
 #steam: ''
 #soundcloud: ''
 #lastfm: ''
 #stack-overflow: ''
 #reddit: ''
-#medium:  ''
-tumblr: 'mytumblr'
-weibo: 'myweibo'
-vk: 'myvk'
-blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
-messenger: 'myfbchat'
+medium:  'ea1het'
+#tumblr: ''
+#weibo: ''
+#vk: ''
+blog_url: 'https://notes.0x30.io'
+email: 'j@0x30.io'
+#messenger: ''
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [twitter, linkedin, github-user, gitlab-user, medum, blog_url, email]
 
 # Advanced settings
 plugins:
