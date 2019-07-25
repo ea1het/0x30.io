@@ -35,7 +35,7 @@ blog_url: 'notes.0x30.io'
 email: 'j@0x30.io'
 #messenger: ''
 
-social-links-order: [twitter, linkedin, github-user, gitlab-user, medum, blog_url, email]
+social-links-order: [skype, twitter, linkedin, github-user, gitlab-user, medum, blog_url, email]
 
 # Advanced settings
 plugins:
@@ -141,7 +141,7 @@ social-links:
     url-pattern: telegram.me/__USERNAME__
     
   - name: skype
-    url-pattern: skype:__USERNAME__?call
+    url-pattern: __USERNAME__?call
     icon-class: fab fa-2x fa-skype
 
   - name: snapchat
