@@ -15,6 +15,7 @@ favicon: 'favicon.ico'
 #facebook: ''
 twitter: 'ea1het'
 linkedin: 'ea1het'
+skype: 'ea1het'
 #instagram: ''
 #pinterest: ''
 #youtube: ''
@@ -138,6 +139,10 @@ social-links:
 
   - name: telegram
     url-pattern: telegram.me/__USERNAME__
+    
+  - name: skype
+    url-pattern: skype:__USERNAME__?call
+    icon-class: fab fa-2x fa-skype
 
   - name: snapchat
     url-pattern: snapchat.com/add/__USERNAME__
