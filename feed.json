@@ -1,21 +1,21 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Feed",
+    "title": "EA1HET / 0x30.io",
     "description": "",
-    "home_page_url": "http://0x30.io",
-    "feed_url": "http://0x30.io/feed.json",
+    "home_page_url": "https://0x30.io",
+    "feed_url": "https://0x30.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "Jonathan Gonzalez"
     },
     "items": [
         {
-            "id": "http://0x30.io/test.html",
-            "url": "http://0x30.io/test.html",
+            "id": "https://0x30.io/test/",
+            "url": "https://0x30.io/test/",
             "title": "TEST",
             "summary": "This is an initial test post",
             "content_html": "This is an initial test post",
-            "image": "http://0x30.io/media/posts/1/hacker.jpg",
+            "image": "https://0x30.io/media/posts/1/hacker.jpg",
             "author": {
                 "name": "Jonathan Gonzalez"
             },

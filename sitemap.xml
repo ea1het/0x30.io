@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://0x30.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://0x30.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>http://0x30.io/</loc>
+<loc>https://0x30.io/</loc>
 </url>
 <url>
-<loc>http://0x30.io/about-me.html</loc>
+<loc>https://0x30.io/about-me/</loc>
 <lastmod>2019-08-07T06:20:13+02:00</lastmod>
 <image:image>
-<image:loc>http://0x30.io/media/posts/2/1500x500.jpg</image:loc>
+<image:loc>https://0x30.io/media/posts/2/1500x500.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>http://0x30.io/ham-radio.html</loc>
+<loc>https://0x30.io/cookie-policy/</loc>
+<lastmod>2019-08-07T06:39:05+02:00</lastmod>
+</url>
+<url>
+<loc>https://0x30.io/ham-radio/</loc>
 <lastmod>2019-08-07T06:24:06+02:00</lastmod>
 <image:image>
-<image:loc>http://0x30.io/media/posts/3/banner.jpg</image:loc>
+<image:loc>https://0x30.io/media/posts/3/banner.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>http://0x30.io/test.html</loc>
+<loc>https://0x30.io/test/</loc>
 <lastmod>2019-08-07T06:14:45+02:00</lastmod>
 <image:image>
-<image:loc>http://0x30.io/media/posts/1/hacker.jpg</image:loc>
+<image:loc>https://0x30.io/media/posts/1/hacker.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
