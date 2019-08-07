@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Feed",
+    "description": "",
+    "home_page_url": "http://0x30.io",
+    "feed_url": "http://0x30.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Jonathan Gonzalez"
+    },
+    "items": [
+        {
+            "id": "http://0x30.io/test.html",
+            "url": "http://0x30.io/test.html",
+            "title": "TEST",
+            "summary": "This is an initial test post",
+            "content_html": "This is an initial test post",
+            "image": "http://0x30.io/media/posts/1/hacker.jpg",
+            "author": {
+                "name": "Jonathan Gonzalez"
+            },
+            "tags": [
+            ],
+            "date_published": "2010-08-07T12:00:00+02:00",
+            "date_modified": "2019-08-07T06:14:45+02:00"
+        }
+    ]
+}

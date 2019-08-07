@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Feed</title>
+    <link href="http://0x30.io/feed.xml" rel="self" />
+    <link href="http://0x30.io" />
+    <updated>2019-08-07T06:28:35+02:00</updated>
+    <author>
+        <name>Jonathan Gonzalez</name>
+    </author>
+    <id>http://0x30.io</id>
+
+    <entry>
+        <title>TEST</title>
+        <author>
+            <name>Jonathan Gonzalez</name>
+        </author>
+        <link href="http://0x30.io/test.html"/>
+        <id>http://0x30.io/test.html</id>
+
+        <updated>2019-08-07T06:14:45+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="http://0x30.io/media/posts/1/hacker.jpg" alt="" />
+                    This is an initial test post
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="http://0x30.io/media/posts/1/hacker.jpg" alt="" />
+                This is an initial test post
+            ]]>
+        </content>
+    </entry>
+</feed>
