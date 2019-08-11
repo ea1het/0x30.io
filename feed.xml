@@ -3,7 +3,7 @@
     <title>EA1HET / 0x30.io</title>
     <link href="https://0x30.io/feed.xml" rel="self" />
     <link href="https://0x30.io" />
-    <updated>2019-08-07T07:57:32+02:00</updated>
+    <updated>2019-08-11T17:01:20+02:00</updated>
     <author>
         <name>Jonathan Gonzalez</name>
     </author>
@@ -20,7 +20,7 @@
         <updated>2019-08-07T07:28:05+02:00</updated>
             <summary>
                 <![CDATA[
-                    A review on SAST, DAST, IAST and RASPIt’s estimated that 90 percent of security incidents result from attackers exploiting known software bugs. Needless to say, squashing those bugs in the development phase of software could reduce the information security risks facing many organizations today. To&hellip;
+                    A review on SAST, DAST, IAST and RASPIt’s estimated that 90 percent of security incidents&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -201,7 +201,7 @@
         <updated>2019-08-07T07:24:23+02:00</updated>
             <summary>
                 <![CDATA[
-                    What is the Cyber Kill Chain Model?‘Kill Chain’ is a term originally used by the military to define the steps an enemy uses to attack a target. In 2011, Lockheed Martin released a paper defining a Cyber Kill Chain. Similar in concept to the military’s model, it defines&hellip;
+                    What is the Cyber Kill Chain Model?‘Kill Chain’ is a term originally used by the&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -229,7 +229,7 @@
         <updated>2019-08-07T07:31:53+02:00</updated>
             <summary>
                 <![CDATA[
-                    The critical difference between NoSQL and Relational databases is that RDBMS schemas rigidly define how all data inserted into the database must be typed and composed, whereas NoSQL databases can be schema agnostic, allowing unstructured and semi-structured data to be stored and manipulated. NoSQL databases&hellip;
+                    The critical difference between NoSQL and Relational databases is that RDBMS schemas rigidly define how&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -335,7 +335,7 @@
         <updated>2019-08-07T07:30:35+02:00</updated>
             <summary>
                 <![CDATA[
-                    Building meaningful KPIs isn't an easy task. My experience with several Enterprise IT and security methodologies and frameworks is that, due to the fact the a) organisations are mostly immature in regard to security, and b) organisations want to have a security framework in place they can trust because&hellip;
+                    Building meaningful KPIs isn't an easy task. My experience with several Enterprise IT and security&hellip;
                 ]]>
             </summary>
         <content type="html">
