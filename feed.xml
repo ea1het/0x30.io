@@ -3,12 +3,29 @@
     <title>EA1HET / 0x30.io</title>
     <link href="https://0x30.io/feed.xml" rel="self" />
     <link href="https://0x30.io" />
-    <updated>2019-08-14T12:55:56+02:00</updated>
+    <updated>2019-08-14T13:10:44+02:00</updated>
     <author>
         <name>Jonathan Gonzalez</name>
     </author>
     <id>https://0x30.io</id>
 
+    <entry>
+        <title>ESP8266 programming</title>
+        <author>
+            <name>Jonathan Gonzalez</name>
+        </author>
+        <link href="https://0x30.io/esp8266-programming/"/>
+        <id>https://0x30.io/esp8266-programming/</id>
+
+        <updated>2019-08-14T13:10:29+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://0x30.io/media/posts/15/0561d6e4dcd7a6b73f4d6cbdcf555161_original.jpg" alt="" />
+                    There are two main categories of ESP8266 boards: development boards with a USB interface (USB-to-Serial&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>The ESP8266 hardware</title>
         <author>
