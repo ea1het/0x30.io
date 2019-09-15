@@ -1,53 +1,56 @@
+==================================================================
 https://keybase.io/ea1het
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of http://0x30.io
+  * I am an admin of https://0x30.io
   * I am ea1het (https://keybase.io/ea1het) on keybase.
-  * I have a public key ASAyBoP8d6Ehp6DXy9bpOvAgKvJE1usYOPu7DbP3OtC9jQo
+  * I have a public key ASD34oUTQNxUiwtq38q0ZVXcDBWPKSmQsAG95S-ih4P51Qo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "0120320683fc77a121a7a0d7cbd6e93af0202af244d6eb1838fbbb0db3f73ad0bd8d0a",
+      "eldest_kid": "0120f7e2851340dc548b0b6adfcab46555dc0c158f292990b001bde52fa28783f9d50a",
       "host": "keybase.io",
-      "kid": "0120320683fc77a121a7a0d7cbd6e93af0202af244d6eb1838fbbb0db3f73ad0bd8d0a",
+      "kid": "0120f7e2851340dc548b0b6adfcab46555dc0c158f292990b001bde52fa28783f9d50a",
       "uid": "a1fe479bc6cb64b544219e4f7a071219",
       "username": "ea1het"
     },
     "merkle_root": {
-      "ctime": 1525279565,
-      "hash": "7178980a6ab2a07abbd107e22c9ccdf2e94bb5d7eb36fc467849e1999800075a7d02ccdb03335a6328f00c3f10ab93cfc90d6334749b074586b254df113088b0",
-      "hash_meta": "d35ef8b1b6281644663b7d9b7fbec305f7608369fef967b8327a892a60da3a79",
-      "seqno": 2471242
+      "ctime": 1568505769,
+      "hash": "56a115518744e4d45e00bf5ad8c2cfb11adc9d3a56c08295076ef7066966395fa40b3f1303e7cea3eaef24de5a29af6d2fd186bacf9a4e25c800957e053c2dc4",
+      "hash_meta": "20d40127f40e269cbc3d37d1c2b7d19e98548ab929563abd91c091a0eabe02ac",
+      "seqno": 7357565
     },
     "service": {
-      "entropy": "wdWi6BM9lhh/LpCNNrsa6L8e",
+      "entropy": "WGqpRgh+LecWzqXdaZuDHogw",
       "hostname": "0x30.io",
-      "protocol": "http:"
+      "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 2
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "1.0.47"
+    "version": "4.4.2"
   },
-  "ctime": 1525279588,
+  "ctime": 1568505784,
   "expire_in": 504576000,
-  "prev": "9ce99864c2065421fa93e0e53653592edd64d96a488e6e844ad262a8464325fd",
-  "seqno": 17,
+  "prev": "75d200ed00bc6fadbfcb4f546cd79444af9c9cdc4deb88352b6d08ca8b232558",
+  "seqno": 25,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgMgaD/HehIaeg18vW6TrwICryRNbrGDj7uw2z9zrQvY0Kp3BheWxvYWTESpcCEcQgnOmYZMIGVCH6k+DlNlNZLt1k2WpIjm6EStJiqEZDJf3EINQwjKznlkW/DdnMcNi/KigxWsbLGZBm5yBjEymxG0NpAgHCo3NpZ8RAX4IRZPDPZLQr6KDBIayFk6itmTfj8suQq4+zhQCfKwIlNw9uLAANCk5wvg93lN97YQd7zF+YE00XA8bc2LS8B6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIoSaMtetxUBD5z+Z0yweClPGDn7JAOBBahRwV6YpX/+o3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9+KFE0DcVIsLat/KtGVV3AwVjykpkLABveUvooeD+dUKp3BheWxvYWTESpcCGcQgddIA7QC8b62/y09UbNeURK+cnNxN64g1K20IyosjJVjEICM2UwPfnbkInQnk1rIjZRZcJTLM8+6/A8fxl9Om7OEBAgHCo3NpZ8RA1douOCxa6JFixCvWzZVetr+rY/Ii6A49ogMKhLdpyIOI5x4uIc4F66SWyeefPJKpvkat17hw6stNV9TVDJicB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFyYOXbxZ4GsDyomhv7VtXqgqPa+eyM2tu2UXjo2P/D7o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/ea1het
+
+==================================================================
