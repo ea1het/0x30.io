@@ -14,13 +14,14 @@
             "url": "https://0x30.io/kubernetes-orchestration-feasible-alternatives/",
             "title": "Kubernetes orchestration feasible alternatives",
             "summary": "Due to different business reasons, I've been thinking on finding a viable alternative to kubernetes (k8s) for those project that simply don't qualify for such a big container implementation, without entering so much on the qualifiers or not, as it might be technology, architecture, personal&hellip;",
+            "image": "https://0x30.io/media/posts/18/docker-vs-kubernetes.jpg",
             "author": {
                 "name": "Jonathan Gonzalez"
             },
             "tags": [
             ],
             "date_published": "2019-10-07T18:38:53+02:00",
-            "date_modified": "2019-10-07T19:59:53+02:00"
+            "date_modified": "2019-10-07T20:04:02+02:00"
         },
         {
             "id": "https://0x30.io/esp8266-programming/",

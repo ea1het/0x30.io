@@ -98,7 +98,11 @@
 </url>
 <url>
 <loc>https://0x30.io/kubernetes-orchestration-feasible-alternatives/</loc>
-<lastmod>2019-10-07T19:59:53+02:00</lastmod>
+<lastmod>2019-10-07T20:04:02+02:00</lastmod>
+<image:image>
+<image:loc>https://0x30.io/media/posts/18/docker-vs-kubernetes.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://0x30.io/microservices-101/</loc>
