@@ -3,28 +3,12 @@
     <title>EA1HET / 0x30.io</title>
     <link href="https://0x30.io/feed.xml" rel="self" />
     <link href="https://0x30.io" />
-    <updated>2019-10-07T18:33:35+02:00</updated>
+    <updated>2019-10-07T18:36:43+02:00</updated>
     <author>
         <name>Jonathan Gonzalez</name>
     </author>
     <id>https://0x30.io</id>
 
-    <entry>
-        <title>Alternative orchestration to k8s</title>
-        <author>
-            <name>Jonathan Gonzalez</name>
-        </author>
-        <link href="https://0x30.io/alternative-orchestration-to-k8s/"/>
-        <id>https://0x30.io/alternative-orchestration-to-k8s/</id>
-
-        <updated>2019-10-07T18:33:28+02:00</updated>
-            <summary>
-                <![CDATA[
-                    Due to different business reasons, I've been thinking on finding a viable alternative to kubernetes&hellip;
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
     <entry>
         <title>Alternative orchestration to kubernetes</title>
         <author>
@@ -33,7 +17,7 @@
         <link href="https://0x30.io/alternative-orchestration-to-kubernetes/"/>
         <id>https://0x30.io/alternative-orchestration-to-kubernetes/</id>
 
-        <updated>2019-10-07T18:30:09+02:00</updated>
+        <updated>2019-10-07T18:36:39+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/16/k8s_vs_swarm.jpg" alt="" />
@@ -174,6 +158,23 @@
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/13/microservices.png" alt="" />
                     Microservice is a term that started to be really hot in 2014. Companies around the&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Data ingestion: Fluentd or Logstash. That&#x27;s the question</title>
+        <author>
+            <name>Jonathan Gonzalez</name>
+        </author>
+        <link href="https://0x30.io/data-ingestion-fluentd-or-logstash-thats-the-question/"/>
+        <id>https://0x30.io/data-ingestion-fluentd-or-logstash-thats-the-question/</id>
+
+        <updated>2019-08-12T00:27:41+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://0x30.io/media/posts/12/1.jpeg" alt="" />
+                    IntroductionWhile preparing a stack for a project this summer I came across the decision to&hellip;
                 ]]>
             </summary>
         <content></content>
