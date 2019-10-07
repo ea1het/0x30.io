@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Alternative orchestration to k8s - EA1HET / 0x30.io</title><meta name="description" content="Due to different business reasons, I've been thinking on finding a viable alternative to kubernetes&hellip;"><meta name="robots" content="index, follow"><link rel="canonical" href="https://0x30.io/alternative-orchestration-to-k8s/"><link rel="amphtml" href="https://0x30.io/amp/alternative-orchestration-to-k8s/"><link rel="alternate" type="application/atom+xml" href="https://0x30.io/feed.xml"><link rel="alternate" type="application/json" href="https://0x30.io/feed.json"><link rel="shortcut icon" href="https://0x30.io/media/website/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="https://0x30.io/assets/css/style.css?v=a230e4faf88acd31009720df09d89932"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://0x30.io/alternative-orchestration-to-k8s/"},"headline":"Alternative orchestration to k8s","datePublished":"2019-10-07T18:33","dateModified":"2019-10-07T18:33","description":"Due to different business reasons, I've been thinking on finding a viable alternative to kubernetes&hellip;","author":{"@type":"Person","name":"Jonathan Gonzalez"},"publisher":{"@type":"Organization","name":"Jonathan Gonzalez"}}</script></head><body><div class="container"><header class="top"><a class="logo" href="https://0x30.io/">EA1HET / 0x30.io</a><nav class="navbar js-navbar"><button class="navbar__toggle js-navbar__toggle">Menu</button><ul class="navbar__menu"><li><a href="https://0x30.io/" title="Home">Home</a></li><li class="has-submenu"><span>Professional</span><ul class="navbar__submenu"><li><a href="https://0x30.io/tags/cybersecurity/">CyberSecurity</a></li><li><a href="https://0x30.io/tags/devops/">DevOps</a></li><li><a href="https://0x30.io/tags/data/">Data</a></li></ul></li><li class="has-submenu"><span>Amateur</span><ul class="navbar__submenu"><li><a href="https://0x30.io/ham-radio-software/">Ham Radio software</a></li><li><a href="https://0x30.io/tags/iot/">IoT</a></li></ul></li><li><a href="https://0x30.io/ham-radio/">Ham Radio</a></li><li><a href="https://0x30.io/about-me/">About me</a></li><li><a href="https://0x30.io/feed">Feed</a></li></ul></nav></header><main class="main"><article class="post"><header><h1>Alternative orchestration to k8s</h1><ul class="post__meta u-small"><li><a href="https://0x30.io/authors/ea1het/" rel="author" title="Jonathan Gonzalez">Jonathan Gonzalez</a></li><li>Published on <time datetime="2019-10-07T18:33">07/10/2019</time></li><li><a href="https://0x30.io/tags/devops/" title="DevOps">DevOps</a></li></ul></header><div class="post__entry"><p>Due to different business reasons, I've been thinking on finding a viable alternative to kubernetes for those projects that simply don't qualify for their usage. The following is the result of my research, identifiying the different components by its type:</p><ul><li><strong>Swarm GUI</strong><ul><li><span style="text-decoration: underline;">Open Source:</span> <a href="https://www.portainer.io" target="_blank" rel="noopener noreferrer">Portainer</a> or <a href="https://swarmpit.io" target="_blank" rel="noopener noreferrer">Swarmpit</a></li><li><span style="text-decoration: underline;">Enterprise:</span> Docker EE UCP</li></ul></li></ul><ul><li><strong>Central Monitoring</strong><ul><li><span style="text-decoration: underline;">Open Source:</span> Prometheus + Grafana</li><li><span style="text-decoration: underline;">Enterprise:</span> AWS CloudWatch + Telegraf or Sysdig or Datadog or Librato</li></ul></li></ul><ul><li><strong>Central Logging</strong><ul><li><span style="text-decoration: underline;">Open Source:</span> ELK</li><li><span style="text-decoration: underline;">Enterprise:</span> ELK + AWS CloudWatch + AWS CloudTrail or Logz.io or Papertrail</li></ul></li></ul><ul><li><strong>Container Runtime</strong><ul><li>Docker EE (production) + Docker CE (development, staging)</li></ul></li></ul><ul><li><strong>Container Registry</strong><ul><li><span style="text-decoration: underline;">Open Source:</span> Docker Registry</li><li><span style="text-decoration: underline;">Enterprise:</span> Docker Registry DTR</li></ul></li></ul><ul><li><strong>Layer 7 proxy (aka Ingress Controller)</strong><ul><li>HAProxy or Traefik or NGINX + Docker Interlock architecture (<strong>*</strong>)</li></ul></li></ul><ul><li><strong>Orchestration</strong><ul><li>Dockder Swarm</li></ul></li></ul><ul><li><strong>Storage (Block Storage)</strong><ul><li><span style="text-decoration: underline;">Open Source:</span> REX-Ray + Volumes in cloud provider</li><li><span style="text-decoration: underline;">Enterprise:</span> Docker CloudStor or REX-Ray or BlockBridge or Portworx or StorageOS Diamanti (on hyperconverged clouds)</li></ul></li></ul><ul><li><strong>Networking</strong><ul><li>Docker Swarm Overlay</li></ul></li></ul><ul><li><strong>HW / OS</strong><ul><li><span style="text-decoration: underline;">Open Source:</span> AWS Terraform or Ansible (or similar CM tool) + Docker Machine</li><li><span style="text-decoration: underline;">Enterprise:</span> AWS Terraform or Ansible (or similar CM tool) + Docker Machine + IaaS tools from cloud provider or VM on hyperconverged clouds</li></ul></li></ul><ul><li><strong>Security</strong><ul><li><span style="text-decoration: underline;">Host setup scanner:</span> Docker Bench</li><li><span style="text-decoration: underline;">Container image scanner:</span> Aqua Microscanner</li><li><span style="text-decoration: underline;">Container runtime scanner:</span> Sysdig Falco</li><li><span style="text-decoration: underline;">System capturing &amp; analysis:</span> Sysdig Inspect</li></ul></li></ul><p> </p><p>(<strong>*</strong>) <a href="https://docs.docker.com/ee/ucp/interlock/architecture/">https://docs.docker.com/ee/ucp/interlock/architecture/</a> </p></div><footer class="post__footer"><p class="post__last-updated">This article was updated on 07/10/2019</p><div class="post__share box"><h3 class="box__title">Share this:</h3><a href="https://twitter.com/share?url=https%3A%2F%2F0x30.io%2Falternative-orchestration-to-k8s%2F&amp;via=@ea1het&amp;text=Alternative%20orchestration%20to%20k8s" class="js-share twitter" title="Share with Twitter" rel="nofollow"><svg class="u-icon" aria-hidden="true"><use xlink:href="https://0x30.io/assets/svg/svg-map.svg#twitter"/></svg> Twitter </a><a href="http://www.linkedin.com/shareArticle?url=https%3A%2F%2F0x30.io%2Falternative-orchestration-to-k8s%2F&amp;title=Alternative%20orchestration%20to%20k8s" class="js-share linkedin" title="Share with LinkedIn" rel="nofollow"><svg class="u-icon" aria-hidden="true"><use xlink:href="https://0x30.io/assets/svg/svg-map.svg#linkedin"/></svg> Linkedin</a></div><nav class="post__nav box"><div class="post__nav__prev"><a href="https://0x30.io/alternative-orchestration-to-kubernetes/" class="post__nav__link" rel="prev"><img src="https://0x30.io/media/posts/16/responsive/k8s_vs_swarm-xs.jpg" alt=""><div class="post__nav__text">Previous Post<h5>Alternative orchestration to kubernetes</h5></div></a></div></nav><div class="post__related box"><h3 class="box__title">Related posts</h3><div class="post__related__wrap"><figure><a href="https://0x30.io/alternative-orchestration-to-kubernetes/"><img src="https://0x30.io/media/posts/16/responsive/k8s_vs_swarm-xs.jpg" alt=""></a><figcaption><h4><a href="https://0x30.io/alternative-orchestration-to-kubernetes/">Alternative orchestration to kubernetes</a></h4><time datetime="2019-10-07T15:52">07/10/2019</time></figcaption></figure></div></div></footer></article></main><div class="sidebar"><section class="owner box box--gray"><h3 class="box__title">Owner</h3><img src="https://0x30.io/media/website/avatar_010-150x150.png" alt="Jonathan Gonzalez"><h4>Jonathan Gonzalez</h4><p>Enterprise Architecture, CyberSecurity, DevSecOps, IoT; Ham Radio, Maker; Life enthusiast; Nothing special, just a normal guy ツ ˈtɛknəkrat/ <a href="mailto:j@0x30.io" class="owner__email">j@0x30.io</a></p></section><section class="box"><h3 class="box__title">Tags</h3><ul class="tags"><li><a href="https://0x30.io/tags/cybersecurity/">CyberSecurity</a> <span class="u-small">(3)</span></li><li><a href="https://0x30.io/tags/data/">Data</a> <span class="u-small">(2)</span></li><li><a href="https://0x30.io/tags/devops/">DevOps</a> <span class="u-small">(6)</span></li><li><a href="https://0x30.io/tags/hobby/">Hobby</a> <span class="u-small">(2)</span></li><li><a href="https://0x30.io/tags/iot/">IoT</a> <span class="u-small">(2)</span></li><li><a href="https://0x30.io/tags/professional/">Professional</a> <span class="u-small">(9)</span></li><li><a href="https://0x30.io/tags/software/">Software</a> <span class="u-small">(7)</span></li></ul></section><section class="box"><h3 class="box__title">Search</h3><form action="https://0x30.io/search.html" class="search"><input type="search" name="q" placeholder="search..."></form></section></div><footer class="footer u-small"><div class="footer__copyright">This site is powered by Publii, the FOSS CMS for static websites</div><div class="footer__social"><a href="https://twitter.com/ea1het" title="Twitter" aria-label="Twitter"><svg class="u-icon"><use xlink:href="https://0x30.io/assets/svg/svg-map.svg#twitter"/></svg> </a><a href="https://www.linkedin.com/in/ea1het" title="LinkedIn" aria-label="LinkedIn"><svg class="u-icon"><use xlink:href="https://0x30.io/assets/svg/svg-map.svg#linkedin"/></svg></a></div></footer></div><script>var loadCSSFiles = function() {
+            var links = ['https://fonts.googleapis.com/css?family=PT+Serif|Roboto:400,700&amp;subset=latin-ext'],
+                headElement = document.getElementsByTagName('head')[0],
+                linkElement, i;
+            for (i = 0; i < links.length; i++) {
+                linkElement = document.createElement('link');
+                linkElement.rel = 'stylesheet';
+                linkElement.href = links[i];
+                headElement.appendChild(linkElement);
+            }
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) {
+            raf(loadCSSFiles);
+        } else {
+            window.addEventListener('load', loadCSSFiles);
+        }</script><script defer="defer" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" aria-dropeffect="" crossorigin="anonymous"></script><script defer="defer" src="https://0x30.io/assets/js/scripts.min.js?v=071da11d08d51699af4ef60371596ff9"></script><div class="cookie-popup js-cookie-popup cookie-popup--uses-link cookie-popup--uses-badge"><h2>This website uses cookies</h2><p>Select which cookies to opt-in to via the checkboxes below; our website uses cookies to examine site traffic and user activity while on our site, for marketing, and to provide social media functionality. <a href="https://0x30.io/cookie-policy/">More details...</a></p><form><input id="gdpr-necessary" name="gdpr-necessary" checked="checked" disabled="disabled" type="checkbox"> <label for="gdpr-necessary">Required</label> <input id="gdpr-functions" name="gdpr-functions" type="checkbox"> <label for="gdpr-functions">Functionality</label> <input id="gdpr-analytics" name="gdpr-analytics" type="checkbox"> <label for="gdpr-analytics">Analytical</label> <input id="gdpr-marketing" name="gdpr-marketing" type="checkbox"> <label for="gdpr-marketing">Marketing</label><p class="cookie-popup__save-wrapper"><button type="submit" class="cookie-popup__save">Accept</button></p></form><span class="cookie-popup-label">Cookie Policy</span></div><script>(function() {
+                function addScript (src, inline) {
+                    var newScript = document.createElement('script');
+
+                    if (src) {
+                        newScript.setAttribute('src', src);
+                    }
+
+                    if (inline) {
+                        newScript.text = inline;
+                    }
+
+                    document.body.appendChild(newScript);
+                }
+
+                var popup = document.querySelector('.js-cookie-popup');
+                var checkboxes = popup.querySelectorAll('input[type="checkbox"]');
+                var save = popup.querySelector('button');
+                var currentConfig = localStorage.getItem('publii-gdpr-allowed-cookies');
+                var blockedScripts = document.querySelectorAll('script[type^="gdpr-blocker/"]');
+                
+                var triggerLinks = document.querySelectorAll('a[href*="#cookie-settings"]');
+
+                for (var i = 0; i < triggerLinks.length; i++) {
+                    triggerLinks[i].addEventListener('click', function(e) {
+                        e.preventDefault();
+                        popup.classList.add('cookie-popup--is-sticky');
+                    });
+                }
+            
+
+                popup.addEventListener('click', function() {
+                    if (!popup.classList.contains('cookie-popup--is-sticky')) {
+                        popup.classList.add('cookie-popup--is-sticky');
+                    }
+                });
+
+                save.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    popup.classList.remove('cookie-popup--is-sticky');
+                    var allowedGroups = [];
+
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        if (checkboxes[i].checked) {
+                            var groupName = checkboxes[i].getAttribute('name').replace('gdpr-', '');
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + groupName + '"]');
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+
+                            allowedGroups.push(groupName);
+                        }
+                    }
+
+                    localStorage.setItem('publii-gdpr-allowed-cookies', allowedGroups.join(','));
+                    popup.classList.remove('cookie-popup--is-sticky');
+
+                    setTimeout(function () {
+                        if (currentConfig !== null) {
+                            window.location.reload();
+                        }
+                    }, 250);
+                });
+
+                if (currentConfig === null) {
+                    popup.classList.add('cookie-popup--is-sticky');
+                } else {
+                    if (currentConfig !== '') {
+                        var allowedGroups = currentConfig.split(',');
+
+                        for (var i = 0; i < allowedGroups.length; i++) {
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + allowedGroups[i] + '"]');
+                            var checkbox = popup.querySelector('input[type="checkbox"][name="gdpr-' + allowedGroups[i] + '"]');
+
+                            if (checkbox) {
+                                checkbox.checked = true;
+                            }
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+                        }
+                    }
+                }
+            })();</script></body></html>
