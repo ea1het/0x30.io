@@ -38,7 +38,7 @@ body {
   line-height: 1.6; }
 
 a {
-  color:  #039be5;
+  color:  #148A00;
   text-decoration: none;
   -webkit-transition: all 0.12s linear 0s;
   -o-transition: all 0.12s linear 0s;
@@ -54,7 +54,7 @@ a:active {
   color: #262626; }
 
 a:focus {
-  outline: 2px dotted #039be5; }
+  outline: 2px dotted #148A00; }
 
 figure,
 blockquote,
@@ -197,7 +197,7 @@ hr {
 .btn, [type=button],
 [type=submit],
 button {
-  background: #039be5;
+  background: #148A00;
   border: none;
   border-radius: 2px;
   color: #ffffff;
@@ -236,7 +236,7 @@ button {
   -moz-appearance: none; }
 
 .navbar {
-  background: #039be5;
+  background: #148A00;
   -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
   line-height: 3;
@@ -426,7 +426,7 @@ amp-sidebar {
         margin: 0 0.26667rem 0.26667rem 0;
         padding: 0.26667rem 0.53333rem; }
         .post-tag > li a:hover {
-          background: #039be5;
+          background: #148A00;
           color: #ffffff;
           text-decoration: none; }
   .post-share {
@@ -449,7 +449,7 @@ amp-sidebar {
       background-size: 24px; }
   .post-scroll {
     color: #ffffff;
-    background: #039be5;
+    background: #148A00;
     bottom: 10px;
     border-radius: 50%;
     border: none;
@@ -517,7 +517,7 @@ aside {
     border-color: #e2ac4f; }
   .msg--info {
     background: rgba(45, 97, 201, 0.03);
-    border-color: #039be5; }
+    border-color: #148A00; }
   .msg--success {
     background: #f7fbf6;
     border-color: #5ab44b; }
@@ -550,7 +550,7 @@ aside {
     margin-left: auto; }
 
 .bottom {
-  background: #039be5;
+  background: #148A00;
   color: #ffffff;
   padding: 1.06667rem 4%;
   text-align: center; }</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script><script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script></head><body class="bg-white"><nav class="navbar wrap-inner" id="top"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo logo-text" href="https://0x30.io/amp/">EA1HET / 0x30.io</a></div></nav><main class="wrap-page"><article class="post"><figure class="post-featured-image"><amp-img src="https://0x30.io/media/posts/9/database-wordcloud.jpg" alt="" srcset="https://0x30.io/media/posts/9/responsive/database-wordcloud-xs.jpg 300w ,https://0x30.io/media/posts/9/responsive/database-wordcloud-sm.jpg 480w ,https://0x30.io/media/posts/9/responsive/database-wordcloud-md.jpg 768w" sizes="(max-width: 768px) 100vw, 768px" height="349" layout="responsive" width="599"></amp-img></figure><div class="wrap-inner"><header class="post-header"><h1>Databases per use type</h1><p class="post-meta">By <a href="https://0x30.io/amp/authors/ea1het/" rel="nofollow" title="Jonathan Gonzalez">Jonathan Gonzalez</a> <time datetime="2019-08-07T02:31">07/08/2019</time></p></header><div class="level1"><p>The critical difference between NoSQL and Relational databases is that RDBMS schemas rigidly define how all data inserted into the database must be typed and composed, whereas NoSQL databases can be schema agnostic, allowing unstructured and semi-structured data to be stored and manipulated.</p></div><h2 id="nosql" class="sectionedit2">NoSQL</h2><div class="level2"><p>NoSQL databases emerged as a popular alternative to relational databases as web applications became increasingly complex.</p><p><strong>Advantages</strong>: Since there are so many types and varied applications of NoSQL databases, it’s hard to nail these down, but generally:</p><ul><li class="level1"><div class="li">Schema-free data models are more flexible and easier to administer.</div></li><li class="level2"><div class="li">NoSQL databases are generally more horizontally scalable and fault-tolerant.</div></li><li class="level2"><div class="li">Data can easily be distributed across different nodes. To improve availability and/or partition tolerance, you can choose that data on some nodes be “eventually consistent”.</div></li></ul><p><strong>Disadvantages</strong>: These are also dependent on the database type. Principally:</p><ul><li class="level1"><div class="li">NoSQL databases are generally less widely adopted and mature than RDBMS solutions, so specific expertise is often required.</div></li><li class="level2"><div class="li">There are a range of formats and constraints specific to each database type.</div></li></ul><p>NoSQL/Non-relational databases can take a variety of form:</p></div><h3 id="time-series_database" class="sectionedit3">Time-Series database</h3><div class="level3"><p><em>InfluxDB, AWS Timestream, Informix, Prometheus, Riak-TS, RRDTool, M3db, eXtreme</em></p><p>A software implementation that is optimized for handling time series data, arrays of numbers indexed by time, a datetime or a datetime range. In some fields these time series are called profiles, curves, or traces. This kind of databases allows users to create, enumerate, update and destroy various time series and organize them. The server often supports a number of basic calculations that work on a series as a whole, such as multiplying, adding, or otherwise combining various time series into a new time serie. They can also filter on arbitrary patterns such as time ranges, low value filters, high value filters, or even have the values of one series filter another</p></div><h3 id="key-value_stores" class="sectionedit4">Key-Value Stores</h3><div class="level3"><p><em>Redis, AWS DynamoDB, Memcached, Aerospike, Riak-KV, Tarantool</em></p><p>Are extremely simple database management systems that store only key-value pairs and provide basic functionality for retrieving the value associated with a known key. The simplicity of key-value stores makes these database management systems particularly well-suited to embedded databases, where the stored data is not particularly complex and speed is of paramount importance.</p></div><h3 id="wide_column_stores" class="sectionedit5">Wide Column Stores</h3><div class="level3"><p><em>Cassandra, Scylla, HBase</em></p><p>Are schema-agnostic systems that enable users to store data in column families or tables, a single row of which can be thought of as a record, a multi-dimensional key-value store. These solutions are designed with the goal of scaling well enough to manage petabytes of data across as many as thousands of commodity servers in a massive, distributed system.</p></div><h3 id="document_stores" class="sectionedit6">Document Stores</h3><div class="level3"><p><em>MongoDB, Couchbase, CouchDB, Firebase,</em></p><p>Are schema-free systems that store data in the form of JSON documents. Document stores are similar to key-value or wide column stores, but the document name is the key and the contents of the document, whatever they are, are the value. In a document store, individual records do not require a uniform structure, can contain many different value types, and can be nested. This flexibility makes them particularly well-suited to manage semi-structured data across distributed systems.</p></div><h3 id="graph_databases" class="sectionedit7">Graph Databases</h3><div class="level3"><p><em>Neo4J, Datastax</em></p><p>Represent data as a network of related nodes or objects in order to facilitate data visualizations and graph analytics. A node or object in a graph database contains free-form data that is connected by relationships and grouped according to labels. Graph-Oriented Database Management Systems (DBMS) software is designed with an emphasis on illustrating connections between data points. As a result, graph databases are typically used when analysis of the relationships between heterogeneous data points is the end goal of the system, such as in fraud prevention, advanced enterprise operations, or Facebook’s original friends graph.</p></div><h2 id="sql_rdbms_relational" class="sectionedit8">SQL / RDBMS / Relational</h2><div class="level2"><p><em>MySQL, MariaDB, PostgreSQL, SQLite, Oracle, MS SQL Server, IBM DB2</em></p><p>Relational databases emerged in the 70’s to store data according to a schema that allows data to be displayed as tables with rows and columns. RDBMS all provide functionality for reading, creating, updating, and deleting data, typically by means of Structured Query Language (SQL) statements. The tables in a relational database have keys associated with them, which are used to identify specific columns or rows of a table and facilitate faster access to a particular table, row, or column of interest.</p><p>Data integrity is of particular concern in relational databases, and RDBMS use a number of constraints to ensure that the data contained in the tables is reliable and accurate.</p><p><strong>Advantages</strong>:</p><ul><li class="level1"><div class="li">Relational databases are well-documented and mature technologies, and RDBMS are sold and maintained by a number of established corporations.</div></li><li class="level2"><div class="li">SQL standards are well-defined and commonly accepted.</div></li><li class="level2"><div class="li">A large pool of qualified developers have experience with SQL and RDBMS.</div></li><li class="level2"><div class="li">All RDBMS are ACID-compliant, meaning they satisfy the requirements of Atomicity, Consistency, Isolation, and Durability.</div></li></ul><p><strong>Disadvantages</strong>:</p><ul><li class="level1"><div class="li">RDBMS don’t work well (or at all) with unstructured or semi-structured data, due to schema and type constraints. This makes them ill-suited for large analytics or IoT event loads.</div></li><li class="level2"><div class="li">The tables in your relational database will not necessarily map one-to-one with an object or class representing the same data.</div></li><li class="level2"><div class="li">When migrating one RDBMS to another, schemas and types must generally be identical between source and destination tables for migration to work (schema constraint). For many of the same reasons, extremely complex datasets or those containing variable-length records are generally difficult to handle with an RDBMS schema.</div></li></ul></div><aside><ul class="post-tag"><li><a href="https://0x30.io/amp/tags/data/">Data</a></li><li><a href="https://0x30.io/amp/tags/devops/">DevOps</a></li><li><a href="https://0x30.io/amp/tags/professional/">Professional</a></li></ul><div class="post-share"><amp-social-share type="system" width="40" height="40" data-param-text="Databases per use type"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="Databases per use type" data-param-url="https://0x30.io/amp/databases-per-use-type/"></amp-social-share></div></aside></div></article><nav class="post-pagination wrap-inner"><div class="post-pagination-prev"><span>Previous Post</span> <a href="https://0x30.io/amp/security-kpis/">Security KPIs</a></div><div class="post-pagination-next"><span>Next Post</span> <a href="https://0x30.io/amp/cybersecurity-kill-chain/">CyberSecurity &#x27;Kill Chain&#x27;</a></div></nav></main><amp-animation id="showAnim" layout="nodisplay"><script type="application/json">{
