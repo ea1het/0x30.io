@@ -13,6 +13,14 @@
 </image:image>
 </url>
 <url>
+<loc>https://0x30.io/alternative-orchestration-to-kubernetes/</loc>
+<lastmod>2019-10-07T15:54:29+02:00</lastmod>
+<image:image>
+<image:loc>https://0x30.io/media/posts/16/k8s_vs_swarm.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://0x30.io/application-security/</loc>
 <lastmod>2019-08-11T23:18:16+02:00</lastmod>
 <image:image>
@@ -90,7 +98,11 @@
 </url>
 <url>
 <loc>https://0x30.io/home-extended/</loc>
-<lastmod>2019-08-11T22:37:18+02:00</lastmod>
+<lastmod>2019-10-07T15:38:32+02:00</lastmod>
+<image:image>
+<image:loc>https://0x30.io/media/posts/10/bigthanks.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://0x30.io/microservices-101/</loc>

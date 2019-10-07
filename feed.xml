@@ -3,12 +3,29 @@
     <title>EA1HET / 0x30.io</title>
     <link href="https://0x30.io/feed.xml" rel="self" />
     <link href="https://0x30.io" />
-    <updated>2019-09-15T02:03:27+02:00</updated>
+    <updated>2019-10-07T15:54:35+02:00</updated>
     <author>
         <name>Jonathan Gonzalez</name>
     </author>
     <id>https://0x30.io</id>
 
+    <entry>
+        <title>Alternative orchestration to kubernetes</title>
+        <author>
+            <name>Jonathan Gonzalez</name>
+        </author>
+        <link href="https://0x30.io/alternative-orchestration-to-kubernetes/"/>
+        <id>https://0x30.io/alternative-orchestration-to-kubernetes/</id>
+
+        <updated>2019-10-07T15:54:29+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://0x30.io/media/posts/16/k8s_vs_swarm.jpg" alt="" />
+                    Due to different business reason I've been thinking on finding a viable alternative to kubernetes&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>ESP8266 programming</title>
         <author>
