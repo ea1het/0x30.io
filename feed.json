@@ -13,7 +13,7 @@
             "id": "https://0x30.io/alternative-orchestration-to-kubernetes/",
             "url": "https://0x30.io/alternative-orchestration-to-kubernetes/",
             "title": "Alternative orchestration to kubernetes",
-            "summary": "Due to different business reason I've been thinking on finding a viable alternative to kubernetes&hellip;",
+            "summary": "Due to different business reasons, I've been thinking on finding a viable alternative to kubernetes&hellip;",
             "image": "https://0x30.io/media/posts/16/k8s_vs_swarm.jpg",
             "author": {
                 "name": "Jonathan Gonzalez"
@@ -21,7 +21,7 @@
             "tags": [
             ],
             "date_published": "2019-10-07T15:52:21+02:00",
-            "date_modified": "2019-10-07T15:54:29+02:00"
+            "date_modified": "2019-10-07T18:03:48+02:00"
         },
         {
             "id": "https://0x30.io/esp8266-programming/",
