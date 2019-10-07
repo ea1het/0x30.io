@@ -3,7 +3,7 @@
     <title>EA1HET / 0x30.io</title>
     <link href="https://0x30.io/feed.xml" rel="self" />
     <link href="https://0x30.io" />
-    <updated>2019-10-07T19:14:41+02:00</updated>
+    <updated>2019-10-07T19:22:44+02:00</updated>
     <author>
         <name>Jonathan Gonzalez</name>
     </author>
@@ -17,11 +17,11 @@
         <link href="https://0x30.io/kubernetes-orchestration-feasible-alternatives/"/>
         <id>https://0x30.io/kubernetes-orchestration-feasible-alternatives/</id>
 
-        <updated>2019-10-07T19:14:35+02:00</updated>
+        <updated>2019-10-07T19:22:17+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/18/docker-vs-kubernetes.jpg" alt="" />
-                    Dure to different business reasons, I've been thinking on finding a viable alternative to kubernetes&hellip;
+                    Due to different business reasons, I've been thinking on finding a viable alternative to kubernetes&hellip;
                 ]]>
             </summary>
         <content></content>
