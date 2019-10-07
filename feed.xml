@@ -3,7 +3,7 @@
     <title>EA1HET / 0x30.io</title>
     <link href="https://0x30.io/feed.xml" rel="self" />
     <link href="https://0x30.io" />
-    <updated>2019-10-07T19:22:44+02:00</updated>
+    <updated>2019-10-07T19:34:06+02:00</updated>
     <author>
         <name>Jonathan Gonzalez</name>
     </author>
@@ -21,7 +21,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/18/docker-vs-kubernetes.jpg" alt="" />
-                    Due to different business reasons, I've been thinking on finding a viable alternative to kubernetes&hellip;
+                    Due to different business reasons, I've been thinking on finding a viable alternative to kubernetes (k8s) for those project that simply don't qualify for such a big container implementation, without entering so much on the qualifiers or not, as it might be technology, architecture, personal&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -38,7 +38,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/15/0561d6e4dcd7a6b73f4d6cbdcf555161_original.jpg" alt="" />
-                    There are two main categories of ESP8266 boards: development boards with a USB interface (USB-to-Serial&hellip;
+                    There are two main categories of ESP8266 boards: development boards with a USB interface (USB-to-Serial convertor) on-board, and boards without a USB connection.Development boards with a USB interfaceFor example: NodeMCU, SparkFun ESP8266 Thing - Dev Board, SparkFun Blynk Board, Adafruit Feather HUZZAH with ESP8266 Wi-Fi&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -55,7 +55,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/14/kisscc0-esp8266-arduino-wi-fi-input-output-computer-icons-esp01-like-wifi-module-5b748100ac8846.2815384415343618567067.png" alt="" />
-                    While the ESP8266 is often used as a ‘dumb’ Serial-to-WiFi bridge, it’s a very powerful&hellip;
+                    While the ESP8266 is often used as a ‘dumb’ Serial-to-WiFi bridge, it’s a very powerful microcontroller on its own. In this blog post, we’ll look at the non-Wi-Fi specific functions of the ESP8266. Just like a normal Arduino, the ESP8266 has digital input/output pins (I/O&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -72,7 +72,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/7/Dynamic-Application-Security-Test-Orchestration-1000x500.jpg" alt="" />
-                    A review on SAST, DAST, IAST and RASPIt’s estimated that 90 percent of security incidents&hellip;
+                    A review on SAST, DAST, IAST and RASPIt’s estimated that 90 percent of security incidents result from attackers exploiting known software bugs. Needless to say, squashing those bugs in the development phase of software could reduce the information security risks facing many organizations today. To&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -89,7 +89,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/6/Captura-de-pantalla-2019-08-11-a-las-23.21.44.png" alt="" />
-                    What is the Cyber Kill Chain Model?‘Kill Chain’ is a term originally used by the&hellip;
+                    What is the Cyber Kill Chain Model?‘Kill Chain’ is a term originally used by the military to define the steps an enemy uses to attack a target. In 2011, Lockheed Martin released a paper defining a Cyber Kill Chain. Similar in concept to the military’s model, it defines&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -106,7 +106,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/9/database-wordcloud.jpg" alt="" />
-                    The critical difference between NoSQL and Relational databases is that RDBMS schemas rigidly define how&hellip;
+                    The critical difference between NoSQL and Relational databases is that RDBMS schemas rigidly define how all data inserted into the database must be typed and composed, whereas NoSQL databases can be schema agnostic, allowing unstructured and semi-structured data to be stored and manipulated. NoSQL databases&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -123,7 +123,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/8/security_ciso-100593407-primary.idge.jpg" alt="" />
-                    Building meaningful KPIs isn't an easy task. My experience with several Enterprise IT and security&hellip;
+                    Building meaningful KPIs isn't an easy task. My experience with several Enterprise IT and security methodologies and frameworks is that, due to the fact the a) organisations are mostly immature in regard to security, and b) organisations want to have a security framework in place they can trust because&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -140,7 +140,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/11/1_wVrgeExYzpDWBma8g6q5TA.png" alt="" />
-                    Writing a public article can be really difficult task. Trying to connect with the readers&hellip;
+                    Writing a public article can be really difficult task. Trying to connect with the readers of all kinds can be tricky. Offer something for reading both to advanced and entry users on technology, bearing in mind how fast the technology ecosystems changes is definitely a&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -157,7 +157,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/13/microservices.png" alt="" />
-                    Microservice is a term that started to be really hot in 2014. Companies around the&hellip;
+                    Microservice is a term that started to be really hot in 2014. Companies around the world and software engineers are paying since then special attention to this paradigm as a new way to think about structuring applications. In short, microservices relates to a way to&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -174,7 +174,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://0x30.io/media/posts/12/1.jpeg" alt="" />
-                    IntroductionWhile preparing a stack for a project this summer I came across the decision to&hellip;
+                    IntroductionWhile preparing a stack for a project this summer I came across the decision to use a data ingestion tool and, after some days analysing different tools, the last two on the table were Fluentd and Logstash. So, I decided to research a bit and do my tests.
                 ]]>
             </summary>
         <content></content>
